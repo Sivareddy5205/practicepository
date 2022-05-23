@@ -2,6 +2,7 @@
 public class InterfaceDemo {
 
 	public static void main(String[] args) {
+		System.out.println("hi");
 		Calculator c=new Calculator() {
 			
 			@Override
@@ -18,6 +19,8 @@ public class InterfaceDemo {
 				
 				
 			}
+			
+			
 		};
 		c.add();
 		c.sub();
